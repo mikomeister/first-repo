@@ -1,0 +1,324 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	color: #8f8f8f;
+	font :12px Tahoma, sans-serif;
+	border-top:5px solid #7E7E7E;
+	margin:0;
+	background: #f8f8f8 url("../images/bg.png");
+}
+img {
+	border: 0;
+}
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+header {
+	padding: 20px 0;
+}
+form[name="search"]{
+	float: right;
+}
+input[name = "q"]{
+	height: 30px;
+	border:1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	padding: 0px 10px;
+	width: 155px;
+	vertical-align: top;
+
+}
+button{
+	width: 42px;
+	height: 32px;
+	border:none;
+	background-color:#29C5E6;
+	color:#FFFFFF;
+	font-family: Oswald;
+}
+ul a {
+	text-decoration: none;
+}
+nav ul {
+	margin:0;
+	padding: 0;
+}
+nav li {
+	font-family: "Oswald";
+}
+.nav-menu li{
+	display: inline-block;
+	padding: 13px 37px;
+	margin:0;
+}
+nav {
+	background: #f3f3f3;
+	border: 1px solid #e7e7e7;
+}
+
+.active{
+	background-color: #29C5E6;
+	color: #FFFFFF;
+	
+}
+.nav-menu a{
+	color: #b2b2b2;
+}
+#heading{
+	background: transparent url(../images/heading-h1.png);
+	padding-left: 20px;
+	margin:30px 0;
+}
+h1{
+	font-size: 40px;
+	display: inline-block;
+	color: #7E7E7E;
+	background: url("../images/bg.png");
+	padding: 0 10px;
+	margin:0;
+}
+aside{
+	float: left;
+	width: 250px;
+}
+
+.aside-menu-ul a{
+	text-decoration: none;
+	color: #9C9C9C;
+}
+.aside-menu-ul{
+	background-color: #F3F3F3;
+}
+
+
+.aside-menu-ul li{
+	list-style-position: inside;
+	font-weight: 300;
+	list-style-type: square;
+	border-top: 1px solid #e7e7e7;
+	font-size: 14px;
+	color: #9C9C9C;
+	padding: 10px;
+	line-height: 1.143;
+	
+}
+.aside-menu-ul li:first-child{
+	border:none;
+	color: #29C5E6; 
+}
+aside h2{
+	margin-top: 30px;
+	padding: 10px;
+	background:#29C5E6;
+	color: #FFFFFF;
+	font-family: "Oswald";
+	font-size: 14px;
+}
+aside p {
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+aside img{
+	padding: 10px;
+}
+section{
+
+	float: right;
+	width: 680px;
+}
+section p:first-child{
+
+}
+blockquote{
+	background: #29C5E6;
+	padding: 20px;
+	font-family: "Oswald";
+	font-weight: lighter;
+
+}
+blockquote p{
+
+	font-size: 33px;
+
+	font-style: italic;
+	color: #FFFFFF;
+}
+blockquote cite{
+	padding-left: 460px;
+	color: #1D8EA6;
+	font-size: 20px;
+
+}
+.our-offices-img{
+	padding: 0;
+}
+p{
+	padding-bottom: 20px;
+}
+.first-p-section{
+	padding: 20px 0;
+}
+figure{
+	display: inline-block;
+	padding-bottom: 30px;
+}
+.second-figure{
+	float: right;
+}
+figure img{
+	border: 1px solid white;
+	outline: 1px solid #c9c9c9;
+	
+}
+section h2{
+	background:#29c5e6;
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;
+	font-weight: lighter;
+	color: #FFFFFF;
+	padding: 0 10px 0 10px;
+	margin-bottom: 20px;
+}
+figure figcaption {
+	font-family: "Oswald";
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+figure div {
+	font-size: 14px;
+	color: #29c5e6;
+}
+figure figcaption span {
+	display: block;
+	font-size: 14px;
+	color: #29c5e6;
+}
+.row-figure figure{
+	padding-right: 45px;
+}
+.row-figure figure:last-child{
+	padding-right:0;
+}
+footer{
+	background:#7e7e7e;
+	color:#ffffff;
+	font-size: 11px;
+}
+.footer{
+	max-width: 960px;
+	color:#dbdbdb;
+	margin:auto;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.twitter-footer{
+	font-family: "Oswald Regular";
+	max-width: 280px;
+	padding-left: 165px;
+	text-align: justify;
+	width: 300px;
+	padding: 15px 20px 15px 0;
+	float: left;
+}
+footer a{
+	color: #dbdbdb;
+}
+footer h3{
+	font-size: 14px;
+	border-bottom: 2px solid #8e8c8c;
+	margin-bottom: 10px;
+
+}
+.twitter-footer p{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+}
+.sitemap-footer{
+	width: 150px;
+	height: 100px;
+	float: left;
+	padding: 15px 20px 15px 0;
+}
+.sitemap-footer a {
+	text-decoration: none;
+	display: block;
+}
+.sitemap-footer div{
+	float: left;
+	padding-right: 20px;
+}
+.social-footer{
+	width: 140px;
+	float:left;
+	padding: 15px 20px 15px 0;
+}
+#social {
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	background: url(../images/social.png) no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-icon-small  {
+	width: 16px;
+	height: 16px;
+	background: url(../images/social-small.png) no-repeat;
+	display: inline-block;
+	margin: 5px 6px 0 0;
+}
+
+.twitter {
+	background-position: 0 0;
+}
+
+.facebook {
+	background-position: -30px 0;
+}
+
+.google-plus {
+	background-position: -60px 0;
+}
+
+.vimeo {
+	background-position: 0 0;
+}
+
+.youtube {
+	background-position: -16px 0;
+}
+
+.flickr {
+	background-position: -32px 0;
+}
+
+.instagram {
+	background-position: -48px 0;
+}
+
+.rss {
+	background-position: -64px 0;
+}
+.logo-footer {
+	padding-top:30px;
+	float: right;
+
+}
+.logo-footer img{
+	padding-left: 80px;
+	padding-bottom: 10px;
+}
